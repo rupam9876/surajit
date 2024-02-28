@@ -703,8 +703,13 @@ input[type='checkbox']{
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body{
-    overflow:hidden;
+  html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    
   }
   .container{
     max-width: 560px;

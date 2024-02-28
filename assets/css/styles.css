@@ -703,6 +703,9 @@ input[type='checkbox']{
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  body{
+    overflow:hidden;
+  }
   .container{
     max-width: 560px;
   }

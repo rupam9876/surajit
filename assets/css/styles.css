@@ -675,14 +675,14 @@ input[type='checkbox']{
   .home__content{
     order: 1;
   }
-  .home__img-wrapper{
+/*   .home__img-wrapper{
     margin-inline: auto;
-  }
+  } */
   .about__container,
   .content__container{
     row-gap: 2rem;
   }
-  .about__img:not(:first-child){
+/*   .about__img:not(:first-child){
     display: none;
   }
   .about__img:first-child{
@@ -691,7 +691,7 @@ input[type='checkbox']{
     left: 50%;
     translate: 50%;
   }
-
+ */
   .services__container,
   .resume__container{
     grid-template-columns: repeat(2,1fr);
